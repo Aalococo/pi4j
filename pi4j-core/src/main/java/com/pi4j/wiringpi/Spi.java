@@ -64,6 +64,13 @@ public class Spi {
 
     public static int CHANNEL_0 = 0;
     public static int CHANNEL_1 = 1;
+    public static int CHANNEL_2 = 2;
+    public static int CHANNEL_3 = 3;
+    public static int CHANNEL_4 = 4;
+    public static int CHANNEL_5 = 5;
+    public static int CHANNEL_6 = 6;
+    public static int CHANNEL_7 = 7;
+
 
     public static int MODE_0 = 0;
     public static int MODE_1 = 1;
@@ -91,7 +98,7 @@ public class Spi {
      * <p>
      * The returned value is the Linux file-descriptor for the device, or -1 on error. If an error has happened, you
      * may use the standard errno global variable to see why.
-     * </p>
+     * </p>3
      *
      * @see <a
      *      href="http://wiringpi.com/reference/spi-library/">http://wiringpi.com/reference/spi-library</a>

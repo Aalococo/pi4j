@@ -30,7 +30,7 @@ package com.pi4j.io.spi;
  */
 
 public enum SpiChannel {
-    CS0(0), CS1(1);
+    CS0(0), CS1(1), CS2(2), CS3(3), CS4(4), CS5(5), CS6(6), CS7(7);
 
     private final short channel;
 
