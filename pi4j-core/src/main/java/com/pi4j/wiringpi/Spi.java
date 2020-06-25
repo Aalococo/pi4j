@@ -70,6 +70,7 @@ public class Spi {
     public static int CHANNEL_5 = 5;
     public static int CHANNEL_6 = 6;
     public static int CHANNEL_7 = 7;
+    public static int CHANNEL_8 = 8;
 
 
     public static int MODE_0 = 0;
